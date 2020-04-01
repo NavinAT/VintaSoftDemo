@@ -1,0 +1,617 @@
+{
+  "fileLabel": { "text": "Файл" },
+  "viewLabel": { "text": "Просмотр" },
+  "toolsLabel": { "text": "Инструменты" },
+  "annotationsLabel": { "text": "Аннотации" },
+  "printImagesButton": {
+    "title": "Распечатать изображение",
+    "items": {
+      "printImagesDialog": {
+        "dialogTitle": "Печать изображений",
+        "buttons": {
+          "OkButton": "Печатать",
+          "CancelButton": "Отмена"
+        },
+        "items": {
+          "allImagesLabel": { "text": "Все изображения" },
+          "currentImageLabel": { "text": "Текущее изображение" },
+          "selectedImagesLabel": { "text": "Указанные изображения" },
+          "withAnnotationsLabel": { "text": "С аннотациями" }
+        }
+      }
+    }
+  },
+  "thumbnailViewerSettingsButton": {
+    "title": "Настройки просмотрщика миниатюр",
+    "items": {
+      "thumbnailViewerSettingsDialog": {
+        "dialogTitle": "Настройки миниатюр",
+        "buttons": {
+          "OkButton": "Применить",
+          "CancelButton": "Отмена"
+        },
+        "items": {
+          "sizeLabel": { "text": "Размер:" },
+          "scaleLabel": { "text": "Масштаб:" },
+          "flowStyleLabel": { "text": "Стиль расположения:" },
+          "columnCountLabel": { "text": "Число столбцов:" },
+          "marginLabel": { "text": "Промежуток:" },
+          "paddingLeftLabel": { "text": "Отступ слева:" },
+          "paddingRightLabel": { "text": "Отступ справа:" },
+          "paddingTopLabel": { "text": "Отступ сверху:" },
+          "paddingBottomLabel": { "text": "Отступ снизу:" },
+          "focusOnHoverLabel": { "text": "Фокус по курсору:" },
+          "multiSelectLabel": { "text": "Множественный выбор:" },
+          "showAnnotationsLabel": { "text": "Отображать аннотации:" },
+          "showCaptionLabel": { "text": "Показывать подписи:" },
+          "captionFormatLabel": { "text": "Формат подписи:" },
+          "captionAnchorLabel": { "text": "Положение подписи:" },
+          "scaleSelect": {
+            "items": {
+              "smallestOption": { "text": "Наименьший" },
+              "smallOption": { "text": "Маленький" },
+              "normalOption": { "text": "Обычный" },
+              "largeOption": { "text": "Большой" }
+            }
+          },
+          "flowStyleSelect": {
+            "items": {
+              "singleColumnOption": { "text": "Один столбец" },
+              "singleRowOption": { "text": "Одна строка" },
+              "fixedColumnsOption": { "text": "Фиксированное число столбцов" },
+              "wrappedRowsOption": { "text": "Плавающее число строк" }
+            }
+          },
+          "captionAnchorSelect": {
+            "items": {
+              "topLeftOption": { "text": "Сверху слева" },
+              "topOption": { "text": "Сверху" },
+              "topRightOption": { "text": "Сверху справа" },
+              "rightOption": { "text": "Справа" },
+              "bottomRightOption": { "text": "Снизу справа" },
+              "bottomOption": { "text": "Снизу" },
+              "bottomLeftOption": { "text": "Снизу слева" },
+              "leftOption": { "text": "Слева" },
+              "centerOption": { "text": "По центру" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rotateImageWithAnnotationsButton": {
+    "title": "Повернуть изображение вместе с аннотациями",
+    "items": {
+      "rotateImageWithAnnotationsDialog": {
+        "dialogTitle": "Поворот изображения с аннотациями",
+        "buttons": {
+          "OkButton": "Повернуть",
+          "CancelButton": "Отмена"
+        },
+        "items": {
+          "rotationAngleLabel": { "text": "Угол:" },
+          "borderColorTypeLabel": { "text": "Тип границы:" },
+          "rotateImageBorderColorTypeSelect": {
+            "items": {
+              "autoDetectOption": { "text": "Автоматический" },
+              "blackOption": { "text": "Черный" },
+              "whiteOption": { "text": "Белый" },
+              "transparentOption": { "text": "Прозрачный" },
+              "customOption": { "text": "Произвольный" }
+            }
+          },
+          "borderColorLabel": { "text": "Цвет границы:" },
+          "changeSourceLabel": { "text": "Изменять источник" }
+        }
+      }
+    }
+  },
+  "textSelectionPanel": {
+    "items": {
+      "selectionModeLabel": { "text": "Режим выделения:" },
+      "selectionColorLabel": { "text": "Цвет выделения:" },
+      "selectedTextLabel": { "text": "Выделенный текст:" },
+      "selectionModeSelect": {
+        "items": {
+          "rectangleOption": { "text": "Прямоугольный" },
+          "fullLinesOption": { "text": "Линии целиком" }
+        }
+      },
+      "showPanelButton": { "title": "Выделение текста" }
+    }
+  },
+  "pdfImageResourceExtractionPanel": {
+    "items": {
+      "showContentImageButton": { "value": "Показать изображение..." },
+      "showPanelButton": { "title": "Извлечь изображения" }
+    }
+  },
+  "pdfInteractiveFormFieldsPanel": {
+    "items":{
+      "showPanelButton":{"title":"Интерактивные поля"},
+      "interactionModeLabel":{"text":"Режим взаимодействия:"},
+      "viewInteractionModeLabel":{"text":"Просмотр"},
+      "noneInteractionModeLabel":{"text":"Отключено"},
+      "groupFormFieldsByPagesLabel":{"text":"Группировать по страницам"},
+      "saveChangesButton":{"value":"Сохранить изменения"}
+    }
+  },
+  "textSearchPanel": {
+    "items": {
+      "findLabel": { "text": "Искать:" },
+      "whereLookLabel": { "text": "Где:" },
+      "whereLookSelect": {
+        "items": {
+          "currentPageOption": { "text": "Текущая страница" },
+          "allPagesOption": { "text": "Все страницы" }
+        }
+      },
+      "wholeWordLabel": { "text": "Слово целиком" },
+      "caseSensitiveLabel": { "text": "Учитывать регистр" },
+      "startSearchButton": { "value": "Искать" },
+      "stopSearchButton": { "value": "Остановить" },
+      "showPanelButton": { "title": "Поиск текста" },
+	  "textNotFoundLabel": {"text": "Текст не найден."}
+    }
+  },
+  "pdfBookmarksPanel": { "items": { "showPanelButton": { "title": "Закладки" } } },
+  "annotationsPanel": {
+    "items": {
+      "showPanelButton": { "title": "Аннотации" },
+      "annotationSettingsButton": { "title": "Настройки аннотации" }
+    }
+  },
+  "thumbnailViewerPanel": { "items": { "showPanelButton": { "title": "Миниатюры" } } },
+  "imageProcessingPanel": {
+    "items": {
+      "parametersButton": { "value": "Параметры" },
+      "runButton": { "value": "Применить" },
+      "showPanelButton": { "title": "Обработка изображения" }
+    }
+  },
+  "selectTwainDeviceDialog": {
+    "dialogTitle": "Выбор устройства",
+    "buttons": {
+      "OkButton": "Открыть",
+      "CancelButton": "Отмена"
+    },
+    "items": {
+      "showUiLabel": { "text": "Показывать интерфейс" },
+      "changeDeviceCapLabel": { "text": "Настроить возможности устройства" }
+    }
+  },
+  "twainDeviceCapabilitiesDialog": {
+    "dialogTitle": "Возможности устройства",
+    "buttons": {
+      "OkButton": "Сканировать",
+      "CancelButton": "Отмена"
+    },
+    "items": {
+      "supportedCapsLabel": { "text": "Поддерживаемые возможности:" },
+      "usageModeLabel": { "text": "Режим использования:" },
+      "containerTypeLabel": { "text": "Тип контейнера:" },
+      "valueTypeLabel": { "text": "Тип значения:" },
+      "currentValueLabel": { "text": "Текущее значение:" },
+      "minValueLabel": { "text": "Минимальное значение:" },
+      "maxValueLabel": { "text": "Максимальное значение:" },
+      "defaultValueLabel": { "text": "Значение по умолчанию:" },
+      "stepSizeLabel": { "text": "Размер шага:" },
+      "supportedValuesLabel": { "text": "Поддерживаемые значения:" },
+      "newValueLabel": { "text": "Новое значение:" },
+      "applyNewValueButton": { "value": "Применить" }
+    }
+  },
+  "scanProgressDialog": {
+    "dialogTitle": "Сканирование",
+    "buttons": {
+      "CancelButton": "Прервать"
+    }
+  },
+  "imageViewerImageAnchorSelect": {
+    "items": {
+      "topLeftOption": { "text": "Сверху слева" },
+      "topOption": { "text": "Сверху" },
+      "topRightOption": { "text": "Сверху справа" },
+      "rightOption": { "text": "Справа" },
+      "bottomRightOption": { "text": "Снизу справа" },
+      "bottomOption": { "text": "Снизу" },
+      "bottomLeftOption": { "text": "Снизу слева" },
+      "leftOption": { "text": "Слева" },
+      "centerOption": { "text": "По центру" }
+    }
+  },
+  "scaleModeSelect": {
+    "title": "Сменить режим масштабирования",
+    "items": {
+      "normalOption": { "text": "Нормальный" },
+      "bestFitOption": { "text": "Подгонка всей страницы" },
+      "fitToWidthOption": { "text": "Подгонка по ширине страницы" },
+      "fitToHeightOption": { "text": "Подгонка по высоте страницы" },
+      "pixelToPixelOption": { "text": "Пиксель в пиксель" },
+      "zoomOption": { "text": "Масштаб" }
+    }
+  },
+
+  "normalSizeModeButton": { "title": "Нормальный" },
+  "bestFitSizeModeButton": { "title": "Подгонка всей страницы" },
+  "fitToWidthSizeModeButton": { "title": "Подгонка по ширине страницы" },
+  "fitToHeightSizeModeButton": { "title": "Подгонка по высоте страницы" },
+  "pixelToPixelSizeModeButton": { "title": "Пиксель в пиксель" },
+  "zoomSizeModeButton": { "title": "Масштаб" },
+  "zoomOutButton": { "title": "Уменьшить" },
+  "zoomValueInput": { "title": "Масштаб" },
+  "zoomInButton": { "title": "Увеличить" },
+  "uploadFileButton": {
+    "title": "Загрузить новое изображение",
+    "value": "Загрузить новое изображение"
+  },
+  "uploadPdfFileButton": { "title": "Загрузить новый PDF документ" },
+  "downloadImageButton": { "title": "Скачать файл изображения" },
+  "gotoFirstPageButton": { "title": "Перейти к первому изображению" },
+  "gotoPreviousPageButton": { "title": "Перейти к предыдущему изображению" },
+  "gotoPageInput": { "title": "Страница" },
+  "gotoNextPageButton": { "title": "Перейти к следующему изображению" },
+  "gotoLastPageButton": { "title": "Перейти к последнему изображению" },
+  "rotateCounterClockwiseButton": { "title": "Повернуть изображение против часовой стрелки" },
+  "rotateAngleInput": { "title": "Угол поворота" },
+  "rotateClockwiseButton": { "title": "Повернуть изображение по часовой стрелке" },
+  "rectangularSelectionToolButton": { "title": "Прямоугольное выделение" },
+  "panToolButton": { "title": "Перетягивание" },
+  "magnifierToolButton": { "title": "Лупа" },
+  "zoomToolButton": { "title": "Масштабирование" },
+  "zoomSelectionToolButton": { "title": "Увеличить область" },
+  "textSelectionToolButton": { "title": "Выделение текста" },
+  "pdfImageExtractorToolButton": { "title": "Получить изображения страницы" },
+  "pdfInteractiveFormToolButton":{"title":"Интерактивные поля"},
+  "removeFocusedImageButton": { "title": "Удалить сфокусированное изображение" },
+  "removeAllImagesButton": { "title": "Очистить коллекцию изображений" },
+  "addRectangleAnnotationButton": { "title": "Прямоугольник" },
+  "addEllipseAnnotationButton": { "title": "Эллипс" },
+  "addHighlightAnnotationButton": { "title": "Выделение" },
+  "addReferencedImageAnnotationButton": { "title": "Изображение" },
+  "addTextAnnotationButton": { "title": "Текст" },
+  "addStickyNoteAnnotationButton": { "title": "Заметка" },
+  "addFreeTextAnnotationButton": { "title": "Текстовая выноска" },
+  "addStampAnnotationButton": { "title": "Штамп" },
+  "addLinkAnnotationButton": { "title": "Ссылка" },
+  "addArrowAnnotationButton": { "title": "Стрелка" },
+  "addDoubleArrowAnnotationButton": { "title": "Двусторонняя стрелка" },
+  "addLineAnnotationButton": { "title": "Линия" },
+  "addLinesAnnotationButton": { "title": "Полилиния" },
+  "addInterpolatedLinesAnnotationButton": { "title": "Полилиния с интерполяцией" },
+  "addFreehandLinesAnnotationButton": { "title": "Произвольная линия" },
+  "addPolygonAnnotationButton": { "title": "Полигон" },
+  "addInterpolatedPolygonAnnotationButton": { "title": "Полигон с интерполяцией" },
+  "addFreehandPolygonAnnotationButton": { "title": "Произвольный полигон" },
+  "addCloudPolygonAnnotationButton": { "title": "Облачный полигон" },
+  "addRulerAnnotationButton": { "title": "Линейка" },
+  "addRulersAnnotationButton": { "title": "Рулетка" },
+  "addAngleAnnotationButton": { "title": "Угол" },
+  "addTriangleAnnotationButton": { "title": "Треугольник" },
+  "addMarkAnnotationButton": { "title": "Метка" },
+  "addArcAnnotationButton": { "title": "Дуга" },
+  "noneAnnotationInteractionMode": { "title": "Отключено взаимодействие с аннотациями" },
+  "viewAnnotationInteractionMode": { "title": "Просмотр аннотаций" },
+  "authorAnnotationInteractionMode": { "title": "Редактирование аннотаций" },
+  "copyAnnotationButton": { "title": "Скопировать выбранную аннотацию" },
+  "pasteAnnotationButton": { "title": "Вставить скопированную аннотацию" },
+  "removeAnnotationButton": { "title": "Удалить аннотацию" },
+  "burnAnnotationsButton": { "title": "Прожечь аннотации на изображении" },
+  "saveAnnotationsButton": { "title": "Сохранить аннотации на сервере" },
+  "smallAnnotationInteractionPoints": { "title": "Маленькие точки взаимодействия" },
+  "mediumAnnotationInteractionPoints": { "title": "Средние точки взаимодействия" },
+  "largeAnnotationInteractionPoints": { "title": "Большие точки взаимодействия (Сенсорный экран)" },
+  "enableAnnotationHistoryButton": {
+    "states": {
+      "disabled": { "title": "Включить отмену-повтор" },
+      "enabled": { "title": "Выключить отмену-повтор" }
+    }
+  },
+  "undoAnnotationHistoryButton": { "title": "Отмена" },
+  "redoAnnotationHistoryButton": { "title": "Повтор" },
+  "showMobileMenuButton": { "title": "Еще" },
+  "sidePanelCloseButton": { "title": "Показать/скрыть панель" },
+  "sidePanelCloseButton": { 
+	"states":{
+		"closed":{"title": "Показать панель"},
+		"opened":{"title": "Скрыть панель" }
+	}
+  },
+  "annotationContextMenu": {
+    "items": {
+      "copyAnnotationLabel": { "text": "Скопировать аннотацию" },
+      "pasteAnnotationLabel": { "text": "Вставить аннотацию" },
+      "removeAnnotationLabel": { "text": "Удалить аннотацию" },
+      "bringAnnotationToBackLabel": { "text": "Переместить назад" },
+      "bringAnnotationToFrontLabel": { "text": "Переместить вперед" },
+      "groupAllAnnotationsLabel": { "text": "Объединить аннотации в группу" },
+      "ungroupAnnotationLabel": { "text": "Разгруппировать аннотацию" },
+      "annotationPropertiesLabel": { "text": "Свойства аннотации..." }
+    }
+  },
+  "previousUploadFilesButton": {
+    "title": "Список ранее загруженных изображений",
+    "value": "Список ранее загруженных изображений"
+  },
+  "uploadedFilesDialog": {
+    "dialogTitle": "Загруженные файлы",
+    "buttons": {
+      "OkButton": "Открыть",
+      "CancelButton": "Отмена"
+    },
+    "items": {
+      "noUploadedFilesLabel": { "text": "Загруженных файлов нет." }
+    }
+  },
+  "imageViewerSettingsButton": { "title": "Показать настройки просмотрщика изображений" },
+  "webCamDialog": {
+    "items": {
+      "videoInputLabel": { "text": "Источник видео:" },
+      "refreshDevicesButton": { "value": "Обновить устройства" },
+      "captureImageButton": { "value": "Захватить изображение" }
+    }
+  },
+  "imageViewerSettingsDialog": {
+    "items": {
+      "imageDisplayModeLabel": { "text": "Режим отображения изображений" },
+      "imageAnchorLabel": { "text": "Якорь изображения:" },
+      "imageAnchorSelect": {
+        "items": {
+          "topLeftOption": { "text": "Сверху слева" },
+          "topOption": { "text": "Сверху" },
+          "topRightOption": { "text": "Сверху справа" },
+          "rightOption": { "text": "Справа" },
+          "bottomRightOption": { "text": "Снизу справа" },
+          "bottomOption": { "text": "Снизу" },
+          "bottomLeftOption": { "text": "Снизу слева" },
+          "leftOption": { "text": "Слева" },
+          "noneOption": { "text": "Нет" }
+        }
+      },
+      "multipageDisplayModeLabel": { "text": "Отображаемые изображения:" },
+      "multipageDisplayModeSelect": {
+        "items": {
+          "allImagesOption": { "text": "Все" },
+          "fixedImagesOption": { "text": "Фиксированные" }
+        }
+      },
+      "layoutDirectionLabel": { "text": "Направление отображения:" },
+      "multipageLayoutDirectionSelect": {
+        "items": {
+          "horizontalOption": { "text": "Горизонтальное" },
+          "verticalOption": { "text": "Вертикальное" }
+        }
+      },
+      "rowColumnCountLabel": { "text": "Число изображений в строке/столбце:" },
+      "imagesPaddingLabel": { "text": "Отступ между изображениями:" },
+      "useAppearanceInSinglePageModeLabel": { "text": "Использовать стили в одностраничном режиме" },
+      "appearancesLabel": { "text": "Стили" },
+      "imageAppearanceLabel": { "text": "Стиль изображения" },
+      "focusedImageAppearanceLabel": { "text": "Стиль сфокусированного изображения" },
+      "imageAppearanceBackColorLabel": { "text": "Цвет фона:" },
+      "imageAppearanceBorderColorLabel": { "text": "Цвет границы:" },
+      "imageAppearanceBorderWidthLabel": { "text": "Ширина границы:" },
+      "renderingSettigsLabel": { "text": "Настройки рендеринга" },
+      "defaultRenderingSettigsLabel": { "text": "Настройки по умолчанию" },
+      "customRenderingSettigsLabel": { "text": "Произвольные настройки" },
+      "horResLabel": { "text": "Разрешение по горизонтали:" },
+      "vertResLabel": { "text": "Разрешение по вертикали:" },
+      "smoothingLabel": { "text": "Режим сглаживания:" },
+      "interpolationLabel": { "text": "Режим интерполяции:" },
+      "drawNonMarkupAnnotationsLabel" :{"text": "Рисовать non markup аннотации"},
+      "otherSettigsLabel": { "text": "Прочие настройки" },
+      "colorManagementLabel": { "text": "Использовать управление цветом:" },
+      "centerImageLabel": { "text": "Центрировать изображение:" },
+      "tileSizeLabel": { "text": "Размер тайла:" },
+      "backgroundColorLabel": { "text": "Цвет фона:" }
+    }
+  },
+  "readBarcodesButton": {
+    "title": "Распознать штрихкоды",
+    "items": {
+      "simpleBarcodeReadingDialog": {
+        "dialogTitle": "Распознать штрихкоды",
+        "buttons": {
+          "ReadButton": "Искать",
+          "CancelButton": "Отмена"
+        }
+      }
+    }
+  },
+  "barcodeReaderSettingsButton": { "title": "Настройки распознавания штрихкодов" },
+  "barcodeReaderPanelButton": { "title": "Распознавание штрихкодов" },
+  "writeBarcodeButton": { "title": "Создать штрихкод" },
+  "barcodeWriterSettingsButton": { "title": "Параметры создаваемого штрихкода" },
+  "barcodeWriterPanelButton": { "title": "Создание штрихкодов" },
+  "captureImageButton": { "title": "Захват изображения с камеры" },
+  "processingLabel": { "text": "Обработка" },
+  "invertImageButton": { "title": "Инвертировать" },
+  "rotateImageButton": { "title": "Повернуть на 90°" },
+  "flipXImageButton": { "title": "Отразить по горизонтали" },
+  "flipYImageButton": { "title": "Отразить по вертикали" },
+  "cropImageButton": { "title": "Обрезать" },
+  "scanLabel": { "text": "Сканировать" },
+  "scanImageButton": { "title": "Сканировать изображение" },
+  "uploadScannedImagesButton": {
+    "title": "Выгрузить сканированные изображения на сервер",
+    "items": {
+      "uploadScannedImagesDialog": {
+        "dialogTitle": "Сохранение отсканированных изображений",
+        "buttons": {
+          "SaveButton": "Сохранить",
+          "CancelButton": "Отмена"
+        },
+        "items": {
+          "fileNameLabel": { "text": "Имя файла:" },
+          "fileFormatLabel": { "text": "Формат:" }
+        }
+      }
+    }
+  },
+
+
+  "ocrPreprocessingLabel": { "text": "OCR предобработка" },
+  "autoInvertLabel": { "text": "Автоматическое инвертирование" },
+  "halftoneRemovalLabel": { "text": "Удаление полутонов" },
+  "clearBorderLabel": { "text": "Очистка границы" },
+  "holePunchRemovalLabel": { "text": "Удалить следы дырокола" },
+  "despeckleLabel": { "text": "Удалить пятна" },
+  "deskewLabel": { "text": "Выровнять" },
+  "autoOrientationLabel": { "text": "Автоматическая ориентация" },
+  "segmentationLabel": { "text": "Сегментация" },
+  "preprocessImagesButton": {
+    "value": "Предобработать изображения",
+    "title": "Предобработать изображения"
+  },
+  "ocrSettingsLabel": { "text": "Настройки OCR" },
+  "ocrLanguagesLabel": { "text": "Языки:" },
+  "ocrRecognitionModeLabel": { "text": "Режим распознавания:" },
+  "ocrRecognitionRegionTypeLabel": { "text": "Тип региона распознавания:" },
+  "imageBinarizationLabel": { "text": "Бинаризация:" },
+  "recognizeTextButton": {
+    "value": "Распознать текст",
+    "title": "Распознать текст"
+  },
+  "downloadResultLink": { "text": "Скачать файл с результатами" },
+
+  "pageMessage":"Страница",
+  "closelButtonText": "Закрыть",
+  "cancelButtonText": "Отмена",
+  "convertButtonText": "Сконвертировать",
+  "errorTitle": "Ошибка",
+  "annotationPropertiesTitle": "Свойства аннотации",
+  "imageViewerSettingsTitle": "Настройки просмотрщика изображений",
+  "barcodeInformationTitle": "Информация о штрихкоде",
+  "barcodeWriterSettingsTitle": "Параметры создания штрихкода",
+  "barcodeReaderSettingsTitle": "Параметры распознавания штрихкодов",
+  "interactiveFieldPropertiesTitle": "Свойства интерактивного поля",
+  "captureFromCameraTitle": "Захват изображения с камеры",
+  "resultTitle": "Результаты",
+  "renderingSettingsTitle": "Настройки рендеринга",
+  "uploadedFilesTitle": "Загруженные файлы",
+
+  "uploadFileMessage": "Файл загружается...",
+  "downloadFileMessage": "Файл скачивается...",
+  "imageUploadingMessage": "Изображение загружается...",
+  "imagePreparedToPrintMessage": "Изображение подготавливается к печати...",
+  "wrongPageIndexesMessage": "Неверные индексы страниц.",
+  "argumentTypeExceptionMessage": "Неверный тип аргумента.",
+
+  "openUrlMessage":"Открыть ссылку",
+
+  "readBarcodesMessage": "Распознавание штрихкодов...",
+
+  "imageProcessingMessage": "Изображение обрабатывается...",
+  "noImageToProcessMessage": "Отсутствуют изображения для обработки.",
+  "commandNotAppliedMessage": "Процессинговая команда с указанными параметрами не изменит изображение. Команда не будет применена.",
+  "selectRegionAtImageMessage": "Выберите область на изображении",
+
+  "annotationsSavedMessage": "Аннотации сохранены успешно.",
+  "burnAnnotationsMessage": "Аннотации прожигаются...",
+  "saveAnnotationsMessage": "Аннотации сохраняются...",
+  "rotateImageWithAnnotationsMessage": "Изображение с аннотациями поворачивается...",
+
+  "doesntSupportMediaDevicesMessage": "Ваш браузер не поддерживает 'mediaDevices'.",
+  "noVideoDevicesMessage": "Видео устройства не обнаружены.",
+
+  "twainDeviceManagerOpeningMessage": "Менеджер TWAIN устройств открывается...",
+  "scannedImagesSavedMessage": "Отсканированные изображения успешно сохранены на сервере.",
+  "fileNameEmptyMessage": "Имя файла не может быть пустым.",
+  "uploadImagesMessage": "Загрузка изображений...",
+  "setDeviceCapabilityMessage": "Установка возможности устройства...",
+  "requestDevicesMessage": "Получение устройств...",
+  "requestCapabilitiesMessage": "Получение возможностей устройства...",
+  "noTwainServiceMessage": "VintaSoft Web TWAIN Advanced сервис не найден. Пожалуйста, прочтите информацию в файле _readme!.txt.",
+
+  "noBarcodesFoundMessage": "Штрихкоды не найдены.\n\n Вы можете изменить настройки распознавания штрикодов, например уменьшить интервал сканирования, добавить новые направления сканирования, и т.п., если вы уверены что изображение содержит штрихкоды.\n\n Пожалуйста, пришлите изображение с штрихкодом на support@vintasoft.com, если вы не можете распознать штрихкод - мы сделаем все возможное чтобы помочь вам.",
+  "barcodeReadingInstructionMessage": "Для распознавания штрихкодов выполните следующие действия:\n\n1. Выберите регион на изображении используя инструмент выделения если штрихкоды должны искаться в определенной области.\n\n2. Откройте настройки распознавания штрихкодов и внесите нужные изменения.\n\n3. Запустите распознавание штрихкодов и результаты распознавания будут отображены в текстовой панели.\n\n4. Сделав двойной клик по выделенному штрихкоду в просмотрщике изображений вы откроете окно с расширенной информацией о штрихкоде.",
+  "barcodeWritingInstructionMessage": { "text": "Для создания штрихкода выполните следующие действия:\n\n1. Откройте параметры создаваемого штрихкода и измените их как вам нужно.\n\n2. Запустите создание штрихкода и новое изображение, содержащее штрихкод, будет добавлено в просмотрщик изображений." },
+  "recognizedBarcodesText": "Распознанные штрихкоды",
+  "barcodeValueText": "Значение",
+  "barcodeConfidenceText": "Уверенность в результате",
+  "barcodeReadingQualityText": "Качество распознавания",
+  "barcodeThresholdText": "Порог",
+  "barcodeRegionText": "Регион",
+  "barcodeAngleText": "Угол",
+  "barcodeTypeText": "Тип штрихкода",
+  "barcodeNarrowBarCountText": "Число узких полос",
+  "barcodeNarrowBarSizeText": "Размер узких полос",
+  "barcodeMatrixSizeText": "Размер матрицы",
+  "barcodeCellSizeText": "Размер ячейки",
+  "barcodeBulleyeCenterText": "Центр Bulleye",
+  "barcodeHexValueText": "Шестнадцатиричное значение",
+  "barcodeQualityTestInformationText": "Результаты теста качества",
+  "barcodeSymbolComponentText": "Компонент символа",
+  "barcodeParameterText": "Параметр",
+  "barcodeGradeText": "Оценка",
+  "barcodeDecodeText": "Декодирование",
+  "barcodeMaxReflectanceText": "Макс. коэффициент отражения",
+  "barcodeMinReflectanceText": "Мин. коэффициент отражения",
+  "barcodeGlobalThresholdText": "Глобальный порог",
+  "barcodeSymbolContrastText": "Контраст символа",
+  "barcodeMinEdgeContrastText": "Мин. контраст края",
+  "barcodeModulationText": "Модуляция",
+  "barcodeDefectsText": "Дефекты",
+  "barcodeDecodabilityText": "Декодируемость",
+  "barcodeScanGradeText": "Класс сканирования",
+  "barcodeUnusedErrorCorrectionText": "Неиспользуемая коррекция ошибок",
+  "barcodeCodewordYieldText": "Эффективность декодирования кодовых слов",
+  "barcodeCodewordPrintQualityText": "Качество печати кодового слова",
+  "barcodeCodewordPrintQualityModulationText": "Качество печати кодового слова (модуляция)",
+  "barcodeCodewordPrintQualityDefectsText": "Качество печати кодового слова (дефекты)",
+  "barcodeCodewordPrintQualityDecodabilityText": "Качество печати кодового слова (декодируемость)",
+  "barcodeAxialNonuniformityText": "Осевая неоднородность",
+  "barcodeGridNonuniformityText": "Неоднородность сетки",
+  "barcodeReflectanceMarginText": "Запас по коэффициенту отражения",
+  "barcodeFixedPatternDamageText": "Повреждение фиксированных шаблонов",
+  "barcodeFixedQuietZoneText": "Свободная зона",
+  "barcodeDistortionAngleText": "Угол искажения",
+  "barcodeStartPatternTestText": "Тест стартового шаблона",
+  "barcodeCenterPatternTestText": "Тест центрального шаблона",
+  "barcodeStopPatternTestText": "Тест стопового шаблона",
+  "barcodeValuePassedText": "Пройдено",
+  "barcodeGradeUnavailableText": "Оценка недоступна",
+
+  "getPdfBookmarksMessage": "Получение закладок...",
+  "getImageResourceMessage": "Получение информации о контент-изображении...",
+  "getLinksMessage": "Получение ссылок...",
+  "getTextRegionMessage": "Получение текстового региона...",
+  "getContentImagesMessage": "Получение контент-изображений...",
+  "updateInteractiveFormsMessage":"Обновляем интерактивные формы...",
+  "contentImageTitle": "Контент-изображение",
+  "sizeText": "Размер",
+  "resolutionText": "Разрешение",
+  "compressionText": "Сжатие",
+  "pixelFormatText": "Формат пикселя",
+  "lengthText": "Размер",
+  "bytesText": "байт",
+
+  "encodingText": "Конвертация",
+  "finishedText": "Завершено",
+  "abortedText": "Прервано",
+  "resultsText": "Результаты конвертации",
+  "convertingProgressText": "Прогресс конвертации",
+  "renderingSettingsPanel": {
+    "items": {
+      "defaultRenderingSettigsLabel": { "text": "Настройки по умолчанию" },
+      "customRenderingSettigsLabel": { "text": "Произвольные настройки" },
+      "horResLabel": { "text": "Разрешение по горизонтали:" },
+      "vertResLabel": { "text": "Разрешение по вертикали:" },
+      "smoothingLabel": { "text": "Режим сглаживания:" },
+      "interpolationLabel": { "text": "Режим интерполяции:" }
+    }
+  },
+  "resultFileFormatLabel": { "text": "Формат результирующего файла:" },
+  "resultFileNameLabel": { "text": "Имя файла с результатами:" },
+  "convertButton": { "value": "Сконвертировать" },
+
+  "noUploadedFilesText": "Загруженных файлов нет.",
+
+  "languagesNotSpecifiedMessage":"Языки распознавания не определены.",
+  "ocrRecognintionProgressTitle": "Прогресс распознавания текста",
+  "ocrRecognintionResultTitle": "Результаты распознавания текста",
+  "recognitionStartedText": "Распознавание текста",
+  "recognitionFinishedText": "Распознавание текста завершено",
+  "savingResultStartedText": "Сохранение результатов...",
+  "savingResultFinishedText": "Сохранение результатов завершено"
+}

@@ -1,0 +1,626 @@
+{
+  "fileLabel": { "text": "File" },
+  "viewLabel": { "text": "View" },
+  "toolsLabel": { "text": "Tools" },
+  "annotationsLabel": { "text": "Annotations" },
+  "printImagesButton": {
+    "title": "Print images",
+    "items": {
+      "printImagesDialog": {
+        "dialogTitle": "Print images",
+        "buttons": {
+          "OkButton": "Print",
+          "CancelButton": "Cancel"
+        },
+        "items": {
+          "allImagesLabel": { "text": "All images" },
+          "currentImageLabel": { "text": "Current image" },
+          "selectedImagesLabel": { "text": "Images" },
+          "withAnnotationsLabel": { "text": "With annotations" }
+        }
+      }
+    }
+  },
+  "thumbnailViewerSettingsButton": {
+    "title": "Thumbnail viewer settings",
+    "items": {
+      "thumbnailViewerSettingsDialog": {
+        "dialogTitle": "Thumbnail viewer settings",
+        "buttons": {
+          "OkButton": "Apply",
+          "CancelButton": "Cancel"
+        },
+        "items": {
+          "sizeLabel": { "text": "Size:" },
+          "scaleLabel": { "text": "Scale:" },
+          "flowStyleLabel": { "text": "Flow style:" },
+          "columnCountLabel": { "text": "Column count:" },
+          "marginLabel": { "text": "Margin:" },
+          "paddingLeftLabel": { "text": "Padding left:" },
+          "paddingRightLabel": { "text": "Padding right:" },
+          "paddingTopLabel": { "text": "Padding top:" },
+          "paddingBottomLabel": { "text": "Padding bottom:" },
+          "focusOnHoverLabel": { "text": "Focus on hover:" },
+          "multiSelectLabel": { "text": "Multiselect:" },
+          "showAnnotationsLabel": { "text": "Show annotations:" },
+          "showCaptionLabel": { "text": "Show caption:" },
+          "captionFormatLabel": { "text": "Caption format:" },
+          "captionAnchorLabel": { "text": "Caption anchor:" },
+          "scaleSelect": {
+            "items": {
+              "smallestOption": { "text": "Smallest" },
+              "smallOption": { "text": "Small" },
+              "normalOption": { "text": "Normal" },
+              "largeOption": { "text": "Large" }
+            }
+          },
+          "flowStyleSelect": {
+            "items": {
+              "singleColumnOption": { "text": "Single column" },
+              "singleRowOption": { "text": "Single row" },
+              "fixedColumnsOption": { "text": "Fixed columns" },
+              "wrappedRowsOption": { "text": "Wrapped rows" }
+            }
+          },
+          "captionAnchorSelect": {
+            "items": {
+              "topLeftOption": { "text": "Top left" },
+              "topOption": { "text": "Top" },
+              "topRightOption": { "text": "Top right" },
+              "rightOption": { "text": "Right" },
+              "bottomRightOption": { "text": "Bottom right" },
+              "bottomOption": { "text": "Bottom" },
+              "bottomLeftOption": { "text": "Bottom left" },
+              "leftOption": { "text": "Left" },
+              "centerOption": { "text": "Center" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rotateImageWithAnnotationsButton": {
+    "title": "Rotate image with annotations",
+    "items": {
+      "rotateImageWithAnnotationsDialog": {
+        "dialogTitle": "Rotate image with annotations",
+        "buttons": {
+          "OkButton": "Rotate",
+          "CancelButton": "Cancel"
+        },
+        "items": {
+          "rotationAngleLabel": { "text": "Angle:" },
+          "borderColorTypeLabel": { "text": "Border color type:" },
+          "rotateImageBorderColorTypeSelect": {
+            "items": {
+              "autoDetectOption": { "text": "Auto detect" },
+              "blackOption": { "text": "Black" },
+              "whiteOption": { "text": "White" },
+              "transparentOption": { "text": "Transparent" },
+              "customOption": { "text": "Custom" }
+            }
+          },
+          "borderColorLabel": { "text": "Border color:" },
+          "changeSourceLabel": { "text": "Change source" }
+        }
+      }
+    }
+  },
+  "textSelectionPanel": {
+    "items": {
+      "selectionModeLabel": { "text": "Selection mode:" },
+      "selectionColorLabel": { "text": "Selection color:" },
+      "selectedTextLabel": { "text": "Selected text:" },
+      "selectionModeSelect": {
+        "items": {
+          "rectangleOption": { "text": "Rectangle" },
+          "fullLinesOption": { "text": "Full lines" }
+        }
+      },
+      "showPanelButton": { "title": "Select text" }
+    }
+  },
+  "pdfImageResourceExtractionPanel": {
+    "items": {
+      "showContentImageButton": { "value": "View content image..." },
+      "showPanelButton": { "title": "Extract images" }
+    }
+  },
+  "pdfInteractiveFormFieldsPanel":{
+    "items":{
+      "showPanelButton":{"title":"Interactive Fields"},
+      "interactionModeLabel":{"text":"Interaction mode:"},
+      "viewInteractionModeLabel":{"text":"View"},
+      "noneInteractionModeLabel":{"text":"None"},
+      "groupFormFieldsByPagesLabel":{"text":"Group fields by pages"},
+      "saveChangesButton":{"value":"Save changes"}
+    }
+  },
+  "textSearchPanel": {
+    "items": {
+      "findLabel": { "text": "Find:" },
+      "whereLookLabel": { "text": "Look in:" },
+      "whereLookSelect": {
+        "items": {
+          "currentPageOption": { "text": "Current page" },
+          "allPagesOption": { "text": "All pages" }
+        }
+      },
+      "wholeWordLabel": { "text": "Whole word" },
+      "caseSensitiveLabel": { "text": "Case-sensitive" },
+      "startSearchButton": { "value": "Find" },
+      "stopSearchButton": { "value": "Stop" },
+      "showPanelButton": { "title": "Find text" },
+	  "textNotFoundLabel":{"text": "Text is not found."}
+    }
+  },
+  "pdfBookmarksPanel": { "items": { "showPanelButton": { "title": "Bookmarks" } } },
+  "annotationsPanel": { "items": { "showPanelButton": { "title": "Annotations" } } },
+  "thumbnailViewerPanel": { "items": { "showPanelButton": { "title": "Thumbnails" } } },
+  "imageProcessingPanel": {
+    "items": {
+      "parametersButton": { "value": "Parameters" },
+      "runButton": { "value": "Run" },
+      "showPanelButton": { "title": "Image processing" }
+    }
+  },
+  "selectTwainDeviceDialog": {
+    "dialogTitle": "Select device",
+    "buttons": {
+      "OkButton": "Open",
+      "CancelButton": "Cancel"
+    },
+    "items": {
+      "showUiLabel": { "text": "Show UI" },
+      "changeDeviceCapLabel": { "text": "Change device capabilities" }
+    }
+  },
+  "twainDeviceCapabilitiesDialog": {
+    "dialogTitle": "Device capabilities",
+    "buttons": {
+      "OkButton": "Scan",
+      "CancelButton": "Cancel"
+    },
+    "items": {
+      "supportedCapsLabel": { "text": "Supported capabilities:" },
+      "usageModeLabel": { "text": "Usage mode:" },
+      "containerTypeLabel": { "text": "Container type:" },
+      "valueTypeLabel": { "text": "Value type:" },
+      "currentValueLabel": { "text": "Current value:" },
+      "minValueLabel": { "text": "Min value:" },
+      "maxValueLabel": { "text": "Max value:" },
+      "defaultValueLabel": { "text": "Default value:" },
+      "stepSizeLabel": { "text": "Step size:" },
+      "supportedValuesLabel": { "text": "Supported values:" },
+      "newValueLabel": { "text": "New value:" },
+      "applyNewValueButton": { "value": "Apply" }
+    }
+  },
+  "scanProgressDialog": {
+    "dialogTitle": "Scanning",
+    "buttons": {
+      "CancelButton": "Abort"
+    }
+  },
+  "imageViewerImageAnchorSelect": {
+    "items": {
+      "topLeftOption": { "text": "Top left" },
+      "topOption": { "text": "Top" },
+      "topRightOption": { "text": "Top right" },
+      "rightOption": { "text": "Right" },
+      "bottomRightOption": { "text": "Bottom right" },
+      "bottomOption": { "text": "Bottom" },
+      "bottomLeftOption": { "text": "Bottom left" },
+      "leftOption": { "text": "Left" },
+      "centerOption": { "text": "Center" }
+    }
+  },
+  "scaleModeSelect": {
+    "title": "Change scale mode",
+    "items": {
+      "normalOption": { "text": "Normal" },
+      "bestFitOption": { "text": "Best fit" },
+      "fitToWidthOption": { "text": "Fit to width" },
+      "fitToHeightOption": { "text": "Fit to height" },
+      "pixelToPixelOption": { "text": "Pixel to pixel" },
+      "zoomOption": { "text": "Zoom" }
+    }
+  },
+  "normalSizeModeButton": { "title": "Normal" },
+  "bestFitSizeModeButton": { "title": "Best fit" },
+  "fitToWidthSizeModeButton": { "title": "Fit to width" },
+  "fitToHeightSizeModeButton": { "title": "Fit to height" },
+  "pixelToPixelSizeModeButton": { "title": "Pixel to pixel" },
+  "zoomSizeModeButton": { "title": "Zoom" },
+  "zoomOutButton": { "title": "Zoom out" },
+  "zoomValueInput": { "title": "Zoom" },
+  "zoomInButton": { "title": "Zoom in" },
+  "uploadFileButton": {
+    "title": "Upload image file",
+    "value": "Upload image file"
+  },
+  "uploadPdfFileButton": { "title": "Upload PDF document" },
+  "downloadImageButton": { "title": "Download image file" },
+  "gotoFirstPageButton": { "title": "Go to the first image" },
+  "gotoPreviousPageButton": { "title": "Go to the previous image" },
+  "gotoPageInput": { "title": "Page" },
+  "gotoNextPageButton": { "title": "Go to the next image" },
+  "gotoLastPageButton": { "title": "Go to the last image" },
+  "rotateCounterClockwiseButton": { "title": "Rotate image counterclockwise" },
+  "rotateAngleInput": { "title": "Angle" },
+  "rotateClockwiseButton": { "title": "Rotate image clockwise" },
+  "rectangularSelectionToolButton": { "title": "Rectangular selection" },
+  "panToolButton": { "title": "Pan" },
+  "magnifierToolButton": { "title": "Magnifier" },
+  "zoomToolButton": { "title": "Zoom" },
+  "zoomSelectionToolButton": { "title": "Zoom selection" },
+  "textSelectionToolButton": { "title": "Text selection" },
+  "pdfImageExtractorToolButton": { "title": "Extract images from page" },
+  "pdfInteractiveFormToolButton":{"title":"Interactive Fields"},
+  "removeFocusedImageButton": { "title": "Remove focused image" },
+  "removeAllImagesButton": { "title": "Clear image collection" },
+  "addRectangleAnnotationButton": { "title": "Rectangle" },
+  "addEllipseAnnotationButton": { "title": "Ellipse" },
+  "addHighlightAnnotationButton": { "title": "Highlight" },
+  "addReferencedImageAnnotationButton": { "title": "Referenced image" },
+  "addTextAnnotationButton": { "title": "Text" },
+  "addStickyNoteAnnotationButton": { "title": "Sticky note" },
+  "addFreeTextAnnotationButton": { "title": "Free text" },
+  "addStampAnnotationButton": { "title": "Rubber stamp" },
+  "addLinkAnnotationButton": { "title": "Link" },
+  "addArrowAnnotationButton": { "title": "Arrow" },
+  "addDoubleArrowAnnotationButton": { "title": "Double arrow" },
+  "addLineAnnotationButton": { "title": "Line" },
+  "addLinesAnnotationButton": { "title": "Lines" },
+  "addInterpolatedLinesAnnotationButton": { "title": "Lines with interpolation" },
+  "addFreehandLinesAnnotationButton": { "title": "Freehand lines" },
+  "addPolygonAnnotationButton": { "title": "Polygon" },
+  "addInterpolatedPolygonAnnotationButton": { "title": "Polygon with interpolation" },
+  "addFreehandPolygonAnnotationButton": { "title": "Freehand polygon" },
+  "addCloudPolygonAnnotationButton": { "title": "Cloud polygon" },
+  "addRulerAnnotationButton": { "title": "Ruler" },
+  "addRulersAnnotationButton": { "title": "Rulers" },
+  "addAngleAnnotationButton": { "title": "Angle" },
+  "addTriangleAnnotationButton": { "title": "Triangle" },
+  "addMarkAnnotationButton": { "title": "Mark" },
+  "addArcAnnotationButton": { "title": "Arc" },
+  "noneAnnotationInteractionMode": { "title": "Annotation interaction disabled" },
+  "viewAnnotationInteractionMode": { "title": "View annotations" },
+  "authorAnnotationInteractionMode": { "title": "Annotation editing" },
+  "copyAnnotationButton": { "title": "Copy focused annotation" },
+  "pasteAnnotationButton": { "title": "Paste copied annotation" },
+  "removeAnnotationButton": { "title": "Remove annotation" },
+  "burnAnnotationsButton": { "title": "Burn annotation collection on image" },
+  "saveAnnotationsButton": { "title": "Save annotation collection changes to the server" },
+  "smallAnnotationInteractionPoints": { "title": "Small interaction points" },
+  "mediumAnnotationInteractionPoints": { "title": "Medium interaction points" },
+  "largeAnnotationInteractionPoints": { "title": "Large interaction points (Touch screen)" },
+  "enableAnnotationHistoryButton": { 
+	"states":{
+		"disabled":{"title": "Enable undo-redo" },
+		"enabled":{"title": "Disable undo-redo" }
+	}
+  },
+  "undoAnnotationHistoryButton": { "title": "Undo" },
+  "redoAnnotationHistoryButton": { "title": "Redo" },
+  "showMobileMenuButton": { "title": "More"},
+  "sidePanelCloseButton": { 
+	"states":{
+		"closed":{"title": "Show Side Panel"},
+		"opened":{"title": "Hide Side Panel" }
+	}
+  },
+  "annotationContextMenu": {
+    "items": {
+      "copyAnnotationLabel": { "text": "Copy annotation" },
+      "pasteAnnotationLabel": { "text": "Paste annotation" },
+      "removeAnnotationLabel": { "text": "Remove annotation" },
+      "bringAnnotationToBackLabel": { "text": "Bring to back" },
+      "bringAnnotationToFrontLabel": { "text": "Bring to front" },
+      "groupAllAnnotationsLabel": { "text": "Group all annotations" },
+      "ungroupAnnotationLabel": { "text": "Ungroup annotation" },
+      "annotationPropertiesLabel": { "text": "Annotation properties..." }
+    }
+  },
+
+  "previousUploadFilesButton": {
+    "title": "Previously uploaded files",
+    "value": "Previously uploaded files"
+  },
+  "uploadedFilesDialog": {
+    "dialogTitle": "Previously uploaded files",
+    "buttons": {
+      "OkButton": "Open",
+      "CancelButton": "Cancel"
+    },
+    "items": {
+      "noUploadedFilesLabel": { "text": "No uploaded files." }
+    }
+  },
+  "imageViewerSettingsButton": { "title": "Show image viewer settings" },
+  "webCamDialog": {
+    "items": {
+      "videoInputLabel": { "text": "Video input:" },
+      "refreshDevicesButton": { "value": "Refresh devices" },
+      "captureImageButton": { "value": "Capture image" }
+    }
+  },
+  "imageViewerSettingsDialog": {
+    "items": {
+      "imageDisplayModeLabel": { "text": "Image display mode" },
+      "imageAnchorLabel": { "text": "Image anchor:" },
+      "imageAnchorSelect": {
+        "items": {
+          "topLeftOption": { "text": "Top left" },
+          "topOption": { "text": "Top" },
+          "topRightOption": { "text": "Top right" },
+          "rightOption": { "text": "Right" },
+          "bottomRightOption": { "text": "Bottom right" },
+          "bottomOption": { "text": "Bottom" },
+          "bottomLeftOption": { "text": "Bottom left" },
+          "leftOption": { "text": "Left" },
+          "noneOption": { "text": "None" }
+        }
+      },
+      "multipageDisplayModeLabel": { "text": "Multipage display mode:" },
+      "multipageDisplayModeSelect": {
+        "items": {
+          "allImagesOption": { "text": "All images" },
+          "fixedImagesOption": { "text": "Fixed images" }
+        }
+      },
+      "layoutDirectionLabel": { "text": "Layout direction:" },
+      "multipageLayoutDirectionSelect": {
+        "items": {
+          "horizontalOption": { "text": "Horizontal" },
+          "verticalOption": { "text": "Vertical" }
+        }
+      },
+      "rowColumnCountLabel": { "text": "Images in row/column:" },
+      "imagesPaddingLabel": { "text": "Images padding:" },
+      "useAppearanceInSinglePageModeLabel": { "text": "Use image appearance in single-page mode" },
+      "appearancesLabel": { "text": "Appearances" },
+      "imageAppearanceLabel": { "text": "Image appearance" },
+      "focusedImageAppearanceLabel": { "text": "Focused image appearance" },
+      "imageAppearanceBackColorLabel": { "text": "Back color:" },
+      "imageAppearanceBorderColorLabel": { "text": "Border color:" },
+      "imageAppearanceBorderWidthLabel": { "text": "Border width:" },
+      "renderingSettigsLabel": { "text": "Rendering settings" },
+      "defaultRenderingSettigsLabel": { "text": "Default settings" },
+      "customRenderingSettigsLabel": { "text": "Custom settings" },
+      "horResLabel": { "text": "Horizontal resolution:" },
+      "vertResLabel": { "text": "Vertical resolution:" },
+      "smoothingLabel": { "text": "Smoothing mode:" },
+      "interpolationLabel": { "text": "Interpolation mode:" },
+      "drawNonMarkupAnnotationsLabel" :{"text": "Draw non markup annotations"},
+      "otherSettigsLabel": { "text": "Other settings" },
+      "colorManagementLabel": { "text": "Enable color management:" },
+      "centerImageLabel": { "text": "Center image:" },
+      "tileSizeLabel": { "text": "Tile size:" },
+      "backgroundColorLabel": { "text": "Background color:" }
+    }
+  },
+
+  "barcodeWritingPanel_writeBarcode_icon": { "title": "Write barcode" },
+  "barcodeReadingPanel_readBarcodes_icon": { "title": "Read barcodes" },
+
+  "readBarcodesButton": {
+    "title": "Read barcodes",
+    "items": {
+      "simpleBarcodeReadingDialog": {
+        "dialogTitle": "Read barcodes",
+        "buttons": {
+          "ReadButton": "Read",
+          "CancelButton": "Cancel"
+        }
+      }
+    }
+  },
+  "barcodeReaderSettingsButton": { "title": "Barcode reader settings" },
+  "barcodeReaderPanelButton": { "title": "Read barcodes" },
+  "writeBarcodeButton": { "title": "Write barcode" },
+  "barcodeWriterSettingsButton": { "title": "Barcode writer settings" },
+  "barcodeWriterPanelButton": { "title": "Write barcode" },
+  "captureImageButton": { "title": "Capture from camera" },
+  "processingLabel": { "text": "Preprocessing" },
+  "invertImageButton": { "title": "Invert" },
+  "rotateImageButton": { "title": "Rotate at 90°" },
+  "flipXImageButton": { "title": "FlipX" },
+  "flipYImageButton": { "title": "FlipY" },
+  "cropImageButton": { "title": "Crop" },
+  "scanLabel": { "text": "Scan" },
+  "scanImageButton": { "title": "Scan images" },
+  "uploadScannedImagesButton": {
+    "title": "Save scanned images",
+    "items": {
+      "uploadScannedImagesDialog": {
+        "dialogTitle": "Save scanned images",
+        "buttons": {
+          "SaveButton": "Save",
+          "CancelButton": "Cancel"
+        },
+        "items": {
+          "fileNameLabel": { "text": "Result file name:" },
+          "fileFormatLabel": { "text": "Result file format:" }
+        }
+      }
+    }
+  },
+
+
+  "ocrPreprocessingLabel": { "text": "OCR preprocessing" },
+  "autoInvertLabel": { "text": "Auto invert" },
+  "halftoneRemovalLabel": { "text": "Halftone removal" },
+  "clearBorderLabel": { "text": "Clear border" },
+  "holePunchRemovalLabel": { "text": "Hole punch removal" },
+  "despeckleLabel": { "text": "Despeckle" },
+  "deskewLabel": { "text": "Deskew" },
+  "autoOrientationLabel": { "text": "Auto orientation" },
+  "segmentationLabel": { "text": "Segmentation" },
+  "preprocessImagesButton": {
+    "value": "Preprocess images",
+    "title": "Preprocess images"
+  },
+  "ocrSettingsLabel": { "text": "OCR settings" },
+  "ocrLanguagesLabel": { "text": "Languages:" },
+  "ocrRecognitionModeLabel": { "text": "Recognition mode:" },
+  "ocrRecognitionRegionTypeLabel": { "text": "Recognition region type:" },
+  "imageBinarizationLabel": { "text": "Image binarization:" },
+  "recognizeTextButton": {
+    "value": "Recognize text",
+    "title": "Recognize text"
+  },
+
+  "downloadResultLink": { "text": "Download result file" },
+
+  "pageMessage":"Page",
+  "closelButtonText": "Close",
+  "cancelButtonText": "Cancel",
+  "convertButtonText": "Convert",
+  "errorTitle": "Error",
+  "annotationPropertiesTitle": "Annotation properties",
+  "imageViewerSettingsTitle": "Image viewer settings",
+  "barcodeInformationTitle": "Barcode information",
+  "barcodeWriterSettingsTitle": "Barcode writer settings",
+  "barcodeReaderSettingsTitle": "Barcode reader settings",
+  "interactiveFieldPropertiesTitle": "Interactive field properties",
+
+  "modalDialog_barcodeReaderSettings_title": "Barcode reader settings",
+  "modalDialog_barcodeWriterSettings_title": "Barcode writer settings",
+
+  "captureFromCameraTitle": "Capture from camera",
+
+  "resultTitle": "Results",
+  "renderingSettingsTitle": "Rendering settings",
+  "uploadedFilesTitle": "Previously uploaded files",
+
+
+  "uploadFileMessage": "File uploading...",
+  "imageUploadingMessage": "Image uploading...",
+  "downloadFileMessage": "File downloading...",
+
+  "imagePreparedToPrintMessage": "Image prepared to print...",
+  "wrongPageIndexesMessage": "Wrong page indexes.",
+  "argumentTypeExceptionMessage": "Argument type exception.",
+
+  "readBarcodesMessage": "Barcode reading...",
+
+  "imageProcessingMessage": "Image processing...",
+  "noImageToProcessMessage": "No images to process.",
+  "commandNotAppliedMessage": "Processing command with specified parameters will not change the image. Command is not applied.",
+  "selectRegionAtImageMessage": "Select region at image.",
+
+  "annotationsSavedMessage": "Annotation collection is saved successfully.",
+  "burnAnnotationsMessage": "Annotation collection is burning...",
+  "saveAnnotationsMessage": "Annotation collection is saving...",
+  "rotateImageWithAnnotationsMessage": "Rotating image with annotations...",
+
+  "openUrlMessage":"Open URL",
+
+  "doesntSupportMediaDevicesMessage": "Your browser doesn't support 'mediaDevices'.",
+  "noVideoDevicesMessage": "Video devices are not found.",
+
+  "twainDeviceManagerOpeningMessage": "TWAIN device manager is opening...",
+  "scannedImagesSavedMessage": "Scanned images successfully saved on server.",
+  "fileNameEmptyMessage": "File name cannot be empty.",
+  "uploadImagesMessage": "Upload images...",
+  "setDeviceCapabilityMessage": "Set device capability...",
+  "requestDevicesMessage": "Request devices...",
+
+  "requestCapabilitiesMessage": "Getting device capabilities...",
+  "noTwainServiceMessage": "VintaSoft Web TWAIN Advanced service is not found. Please read more info in _readme!.txt file.",
+
+
+  "noBarcodesFoundMessage": "No barcodes found.\n\n You should try to change barcode recognition settings, for example decrease scan interval, add new scan direction, etc if you are sure that image contains a barcode.\n\n Please send image with barcode to support@vintasoft.com if you cannot recognize barcode - we will do the best to help you.",
+  "barcodeReadingInstructionMessage": "Please do the following steps for reading barcode:\n\n1. Select region on image using the selection tool if barcodes must be searched in the region.\n\n2. Click the \"Barcode\",\"Reader Settings\" button and specify necessary settings.\n\n3. Click the \"Read\", \"Barcodes\" button and barcode recognition results will be shown in this text box.\n\n4. Click on highlighted barcode in image viewer and you will see an extended information about recognized barcode.",
+  "barcodeWritingInstructionMessage": { "text": "Please do the following steps for writing barcode:\n\n1. Click the 'Barcode Writer Settings' button and specify necessary settings.\n\n2. Click the 'Write Barcode' button and new barcode image will be added to image viewer." },
+  "recognizedBarcodesText": "Recognized barcodes",
+  "barcodeValueText": "Value",
+  "barcodeConfidenceText": "Confidence",
+  "barcodeReadingQualityText": "Reading quality",
+  "barcodeThresholdText": "Threshold",
+  "barcodeRegionText": "Region",
+  "barcodeAngleText": "Angle",
+  "barcodeTypeText": "Barcode type",
+  "barcodeNarrowBarCountText": "Narrow bar count",
+  "barcodeNarrowBarSizeText": "Narrow bar size",
+  "barcodeMatrixSizeText": "Matrix size",
+  "barcodeCellSizeText": "Cell size",
+  "barcodeBulleyeCenterText": "Bulleye center",
+  "barcodeHexValueText": "HEX value",
+  "barcodeQualityTestInformationText": "Quality test information",
+  "barcodeSymbolComponentText": "Symbol component",
+  "barcodeParameterText": "Parameter",
+  "barcodeGradeText": "Grade",
+  "barcodeDecodeText": "Decode",
+  "barcodeMaxReflectanceText": "Max reflectance",
+  "barcodeMinReflectanceText": "Min reflectance",
+  "barcodeGlobalThresholdText": "Global threshold",
+  "barcodeSymbolContrastText": "Symbol contrast",
+  "barcodeMinEdgeContrastText": "Min edge contrast",
+  "barcodeModulationText": "Modulation",
+  "barcodeDefectsText": "Defects",
+  "barcodeDecodabilityText": "Decodability",
+  "barcodeScanGradeText": "Scan grade",
+  "barcodeUnusedErrorCorrectionText": "Unused error correction",
+  "barcodeCodewordYieldText": "Codeword yield",
+  "barcodeCodewordPrintQualityText": "Codeword print quality modulation",
+  "barcodeCodewordPrintQualityModulationText": "Codeword print quality defects",
+  "barcodeCodewordPrintQualityDefectsText": "Codeword print quality decodability",
+  "barcodeCodewordPrintQualityDecodabilityText": "Codeword print quality",
+  "barcodeAxialNonuniformityText": "Axial nonuniformity",
+  "barcodeGridNonuniformityText": "Grid nonuniformity",
+  "barcodeReflectanceMarginText": "Reflectance margin",
+  "barcodeFixedPatternDamageText": "Fixed pattern damage",
+  "barcodeFixedQuietZoneText": "Quiet zone",
+  "barcodeDistortionAngleText": "Distortion angle",
+  "barcodeStartPatternTestText": "Start pattern test",
+  "barcodeCenterPatternTestText": "Center pattern test",
+  "barcodeStopPatternTestText": "Stop pattern test",
+  "barcodeValuePassedText": "Passed",
+  "barcodeGradeUnavailableText": "Unavailable",
+
+  "getPdfBookmarksMessage": "Get PDF bookmarks...",
+  "getImageResourceMessage": "Get content image information...",
+  "getLinksMessage": "Get links...",
+  "getTextRegionMessage": "Get text region...",
+  "getContentImagesMessage": "Get content images...",
+  "updateInteractiveFormsMessage":"Update interactive forms...",
+  "contentImageTitle": "Content image",
+  "sizeText": "Size",
+  "resolutionText": "Resolution",
+  "compressionText": "Compression",
+  "pixelFormatText": "PixelFormat",
+  "lengthText": "Length",
+  "bytesText": "bytes",
+
+  "encodingText": "Converting",
+  "finishedText": "Finished",
+  "abortedText": "Aborted",
+  "resultsText": "Converting results",
+  "convertingProgressText": "Converting progress",
+  "renderingSettingsPanel": {
+    "items": {
+      "defaultRenderingSettigsLabel": { "text": "Default settings" },
+      "customRenderingSettigsLabel": { "text": "Custom settings" },
+      "horResLabel": { "text": "Horizontal resolution:" },
+      "vertResLabel": { "text": "Vertical resolution:" },
+      "smoothingLabel": { "text": "Smoothing mode:" },
+      "interpolationLabel": { "text": "Interpolation mode:" }
+    }
+  },
+
+  "resultFileFormatLabel": { "text": "Result file format:" },
+  "resultFileNameLabel": { "text": "Result file name:" },
+  "convertButton": { "value": "Convert" },
+
+  "noUploadedFilesText": "No uploaded files.",
+
+  "languagesNotSpecifiedMessage":"The recognition languages are not specified.",
+  "ocrRecognintionProgressTitle": "OCR progress",
+  "ocrRecognintionResultTitle": "OCR result",
+  "recognitionStartedText": "Text recognition",
+  "recognitionFinishedText": "Text recognition finished",
+  "savingResultStartedText": "Results saving...",
+  "savingResultFinishedText": "Results saving finished"
+}

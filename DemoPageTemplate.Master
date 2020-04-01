@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DemoPageTemplate.master.cs" Inherits="AspNetDemo.DemoPageTemplate" %>
+
+<%@ Register Src="~/UI/Dialogs/errorMessageDialog.ascx" TagName="errorMessageDialog" TagPrefix="uiDialog" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="Content/Demo.css" rel="stylesheet" />
+    <link href="Scripts/External/jquery-ui-css/jquery-ui.min.css" rel="stylesheet" />
+
+    <script src="Scripts/External/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/External/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="Scripts/External/jquery.blockUI.js" type="text/javascript"></script>
+
+     <%--localization--%>
+    <link rel="localization" href="locales/settings.json">
+
+    <asp:ContentPlaceHolder ID="requiredScripts" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" style="height:100%" runat="server">
+        <div style="height: 100%">
+            <div class="header">
+                <asp:ContentPlaceHolder ID="demoDescription" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <asp:HiddenField ID="hiddenSessionField" runat="server" />
+            <uiDialog:errorMessageDialog runat="server"></uiDialog:errorMessageDialog>
+
+            <asp:ContentPlaceHolder ID="demoContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
