@@ -1,0 +1,97 @@
+﻿#div_file_list_zone {
+    width: 100%;
+    height: 100%;
+	font-size: 0.28rem;
+}
+
+#div_list_header {
+    height: 15%;
+    width: 100%;
+	background-color: rgb(78, 128, 245);
+    color: rgb(255, 255, 255);
+}
+
+#div_list_header span {
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+
+#div_list_header .display-as-table-cell {
+    vertical-align: middle;
+    width: 50%;
+}
+
+#div_list_header .display-as-table-cell:first-child {
+    padding-left: 6.7%;
+    text-align: left;
+}
+
+#div_list_header .display-as-table-cell:last-child {
+    padding-right: 10%;
+    text-align: right;
+}
+
+#div_list_header img {
+    height: 57%;
+    width: auto;
+}
+
+#div_list_content {
+    height: 82%;
+    width: 100%;
+}
+
+#div_file_filter {
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    font-weight: bold;
+}
+
+#div_file_filter > div {
+    margin: 0 5% 0 3%;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+#div_filter_image {
+    width: 20%;
+}
+
+#div_file_filter > div.selected {
+    color: rgb(88, 116, 244);
+    border-bottom: 2px solid rgb(88, 116, 244);
+}
+
+#div_file_filter > div > span {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#tbl_file_list {
+    width: 100%;
+    /*height: 85%;*/
+}
+
+#tbl_file_list tr td:first-child {
+    width: 70%;
+    padding-left: 6.7%;
+}
+
+#tbl_file_list tr td:nth-child(2),
+#tbl_file_list tr td:last-child {
+    width: 15%;
+}
+
+#tbl_file_list img {
+    height: 56%;
+    width: auto;
+}
+
+#tbl_file_list tr.odd-background {
+    background-color: rgb(245,245,245);
+}

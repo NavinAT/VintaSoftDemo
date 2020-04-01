@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCameraDemo", "AspNetCameraDemo.csproj", "{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {806E6710-B02D-48BA-A332-FAE4C06F72AA}
+	EndGlobalSection
+EndGlobal

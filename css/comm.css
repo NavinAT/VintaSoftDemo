@@ -1,0 +1,21 @@
+﻿html, body { height:100%; margin: 0; }
+/*https://stackoverflow.com/questions/2710764/preserve-html-font-size-when-iphone-orientation-changes-from-portrait-to-landsca*/
+html { -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */ }
+body { font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif; padding: 3%; }
+
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width:100%; height:100%; position: relative; overflow: hidden; }
+html * { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+
+a { text-decoration: none;}
+.d-btn { display: inline-block; width: 3.35rem; height: 0.9rem; line-height: 0.9rem; font-size: 0.31rem; text-align: center; cursor: pointer; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -o-border-radius: 100px; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.d-btn.bgBlue { color: #fff;background-color: rgb(88, 116, 244); border: solid 1px rgb(88, 116, 244);}
+.d-btn.bgBlue.disable { color: rgb(204,204,204);background-color: rgb(221,221,221); border: solid 1px rgb(221,221,221);}
+.d-btn.bgGrey { color: rgb(28,28,28); background: rgb(245,245,245); border: solid 1px rgb(238, 238, 238);}
+.d-btn.bgWhite { color: rgb(78, 128, 245); background: #fff; border: solid 1px rgb(78, 128, 245); }
+.d-btn.bgWhite.disable { color: rgb(204,204,204); background: rgb(245,245,245); border: solid 1px rgb(221, 221, 221); }
+.display-as-none { display: none; }
+.display-as-block{ display: block;}
+.display-as-inline-block{ display: inline-block;}
+.display-as-table { display: table; }
+.display-as-table-cell { display: table-cell; }
+

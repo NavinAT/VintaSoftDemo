@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E98DDF3-1AB0-47BC-A997-6112F77C4FC4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AspNetDemo</RootNamespace>
+    <AssemblyName>AspNetCameraDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <WebGreaseLibPath>packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Vintasoft.Barcode, Version=12.1.0.1, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Barcode.12.1.0.1\lib\net40\Vintasoft.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Barcode.Web.HttpHandlers, Version=12.1.0.1, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Barcode.Web.HttpHandlers.12.1.0.1\lib\net40\Vintasoft.Barcode.Web.HttpHandlers.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Barcode.Web.Services, Version=12.1.0.1, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Barcode.Web.Services.12.1.0.1\lib\net40\Vintasoft.Barcode.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging, Version=9.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.9.0.0.21\lib\net40\Vintasoft.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Annotation, Version=9.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Annotation.9.0.0.21\lib\net40\Vintasoft.Imaging.Annotation.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Annotation.Web.HttpHandlers, Version=2.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Annotation.Web.HttpHandlers.2.0.0.21\lib\net40\Vintasoft.Imaging.Annotation.Web.HttpHandlers.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Annotation.Web.Services, Version=2.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Annotation.Web.Services.2.0.0.21\lib\net40\Vintasoft.Imaging.Annotation.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Pdf, Version=6.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Pdf.6.0.0.21\lib\net40\Vintasoft.Imaging.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Web.HttpHandlers, Version=2.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Web.HttpHandlers.2.0.0.21\lib\net40\Vintasoft.Imaging.Web.HttpHandlers.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Imaging.Web.Services, Version=2.0.0.21, Culture=neutral, PublicKeyToken=e553c7d3e075f61c, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Imaging.Web.Services.2.0.0.21\lib\net40\Vintasoft.Imaging.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Shared, Version=1.4.0.1, Culture=neutral, PublicKeyToken=153caf29a10d2e31, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Shared.1.4.0.1\lib\net40\Vintasoft.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Vintasoft.Shared.Web, Version=1.4.0.1, Culture=neutral, PublicKeyToken=153caf29a10d2e31, processorArchitecture=MSIL">
+      <HintPath>packages\Vintasoft.Shared.Web.1.4.0.1\lib\net40\Vintasoft.Shared.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CameraDemo.css" />
+    <Content Include="Content\Cursors\CloseHand.cur" />
+    <Content Include="Content\Cursors\Magnifier.cur" />
+    <Content Include="Content\Cursors\Rotate.cur" />
+    <Content Include="Content\Cursors\Zoom.cur" />
+    <Content Include="Content\Demo.css" />
+    <Content Include="CaptureImage.aspx" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\comm.css" />
+    <Content Include="css\file-list.css" />
+    <Content Include="css\images\GoBack.jpg" />
+    <Content Include="css\images\icn-arrow.png" />
+    <Content Include="css\images\icn-close-popup.png" />
+    <Content Include="css\images\icon-add-image.png" />
+    <Content Include="css\images\icon-download.png" />
+    <Content Include="css\images\icon-list-delete.png" />
+    <Content Include="css\Jcrop.gif" />
+    <Content Include="css\jquery.Jcrop.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="FileCategoryList.aspx" />
+    <Content Include="FileListByFolderName.aspx" />
+    <Content Include="Images\fileUploadProgress.gif" />
+    <Content Include="Images\VintaSoftLogo.png" />
+    <Content Include="locales\en.txt" />
+    <Content Include="locales\ru.txt" />
+    <Content Include="ScanOptions.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\CameraDemo.js" />
+    <Content Include="Scripts\External\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\External\jquery-ui-css\images\ui-icons_444444_256x240.png" />
+    <Content Include="Scripts\External\jquery-ui-css\images\ui-icons_555555_256x240.png" />
+    <Content Include="Scripts\External\jquery-ui-css\images\ui-icons_777777_256x240.png" />
+    <Content Include="Scripts\External\jquery-ui-css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\External\jquery-ui-css\jquery-ui.min.css" />
+    <Content Include="Scripts\External\jquery-ui.min.js" />
+    <Content Include="Scripts\External\jquery.blockUI.js" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\128\bar-alpha.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\128\bar.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\128\map.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\bar-alpha.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\bar-opacity.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\bar-pointer.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\bar.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\map-opacity.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\map-pointer.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\map.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\images\preview-opacity.png" />
+    <Content Include="Scripts\External\jquery.colorpicker\jquery.colorpicker.css" />
+    <Content Include="Scripts\External\jquery.colorpicker\jquery.colorpicker.js" />
+    <Content Include="Scripts\External\multiple-select\multiple-select.css" />
+    <Content Include="Scripts\External\multiple-select\multiple-select.js" />
+    <Content Include="Scripts\External\multiple-select\multiple-select.png" />
+    <Content Include="Scripts\External\raphael.js" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\UI\Dialogs\errorMessageDialog.js" />
+    <Content Include="Scripts\UI\Dialogs\imageViewerSettingsDialog.js" />
+    <Content Include="Scripts\UI\Dialogs\webcamDialog.js" />
+    <Content Include="Scripts\UI\videoInputDeviceManager.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.Annotation.Html5.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.Html5.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Shared.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Barcode.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.Svg.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.DocCleanup.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.Annotation.Svg.js" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
+    <Content Include="Scripts\Vintasoft\Vintasoft.Imaging.DocumentViewer.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="UI\Dialogs\errorMessageDialog.ascx" />
+    <Content Include="UI\Dialogs\webcamDialog.ascx" />
+    <Content Include="UI\Panels\imageViewerSettingsPanel.ascx" />
+    <Content Include="Web.config" />
+    <Compile Include="CaptureImage.aspx.cs">
+      <DependentUpon>CaptureImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaptureImage.aspx.designer.cs">
+      <DependentUpon>CaptureImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoPageTemplate.Master.cs">
+      <DependentUpon>DemoPageTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoPageTemplate.Master.designer.cs">
+      <DependentUpon>DemoPageTemplate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FileCategoryList.aspx.cs">
+      <DependentUpon>FileCategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileCategoryList.aspx.designer.cs">
+      <DependentUpon>FileCategoryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileListByFolderName.aspx.cs">
+      <DependentUpon>FileListByFolderName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileListByFolderName.aspx.designer.cs">
+      <DependentUpon>FileListByFolderName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Annotations\CustomAnnotations\AnnotationsMath.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\CustomAnnotationJsonFormatter.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\CustomAnnotationSerializationBinder.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\MarkAnnotation\MarkAnnotationBuilder.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\MarkAnnotation\MarkAnnotationData.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\MarkAnnotation\MarkAnnotationType.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\MarkAnnotation\MarkAnnotationView.cs" />
+    <Compile Include="Handlers\Annotations\CustomAnnotations\TriangleAnnotation\TriangleAnnotationData.cs" />
+    <Compile Include="Handlers\Annotations\MyVintasoftAnnotationCollectionHandler.ashx.cs">
+      <DependentUpon>MyVintasoftAnnotationCollectionHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Barcodes\MyVintasoftBarcodeHandler.ashx.cs">
+      <DependentUpon>MyVintasoftBarcodeHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Barcodes\MyVintasoftBarcodeWebService.cs" />
+    <Compile Include="Handlers\File\CameraDemoImageFileHandler.ashx.cs">
+      <DependentUpon>CameraDemoImageFileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ImageProcessing\MyVintasoftImageProcessingHandler.ashx.cs">
+      <DependentUpon>MyVintasoftImageProcessingHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ImageRendering\MyVintasoftImageHandler.ashx.cs">
+      <DependentUpon>MyVintasoftImageHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Utils\CustomFontProgramsController.cs" />
+    <Compile Include="MySessionIDManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScanOptions.aspx.cs">
+      <DependentUpon>ScanOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScanOptions.aspx.designer.cs">
+      <DependentUpon>ScanOptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Dialogs\errorMessageDialog.ascx.cs">
+      <DependentUpon>errorMessageDialog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Dialogs\errorMessageDialog.ascx.designer.cs">
+      <DependentUpon>errorMessageDialog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Dialogs\webcamDialog.ascx.cs">
+      <DependentUpon>webcamDialog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Dialogs\webcamDialog.ascx.designer.cs">
+      <DependentUpon>webcamDialog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Panels\imageViewerSettingsPanel.ascx.cs">
+      <DependentUpon>imageViewerSettingsPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Panels\imageViewerSettingsPanel.ascx.designer.cs">
+      <DependentUpon>imageViewerSettingsPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="VintasoftBarcodeLicense.cs" />
+    <Compile Include="VintasoftImagingLicense.cs" />
+    <Content Include="DemoPageTemplate.Master" />
+    <Content Include="Resources\DefaultCMYK.icc" />
+    <Content Include="Resources\DefaultRGB.icc" />
+    <Content Include="Handlers\Annotations\MyVintasoftAnnotationCollectionHandler.ashx" />
+    <Content Include="Handlers\Barcodes\MyVintasoftBarcodeHandler.ashx" />
+    <Content Include="Handlers\File\CameraDemoImageFileHandler.ashx" />
+    <Content Include="Handlers\ImageProcessing\MyVintasoftImageProcessingHandler.ashx" />
+    <Content Include="Handlers\ImageRendering\MyVintasoftImageHandler.ashx" />
+    <Content Include="locales\settings.json" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Site.Master" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UploadedImageFiles\" />
+    <Folder Include="VintasoftCache\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61632</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61632/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(ProjectDir)..\..\..\..\Bin\DotNet4\AnyCPU\Vintasoft.Imaging.Pdf.Resources.dll" "$(ProjectDir)bin\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
